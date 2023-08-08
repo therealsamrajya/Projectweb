@@ -1,0 +1,64 @@
+
+* {
+  box-sizing: border-box;
+  
+}
+body{
+
+  overflow: hidden;
+}
+.div-container {
+  
+  background-color: #0D1282;
+ 
+    
+}
+.divContent
+{
+  font-family: "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif;
+  font-weight: bold;
+  margin-left: 40%;
+  color:#F4F2DE;
+}
+.h2Div
+{
+  margin-left: 11%;
+  font-size: medium;
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.card-deck
+{
+  margin-left: 130px;
+}
+
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
